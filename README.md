@@ -10,7 +10,6 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-UI-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io)
 [![Plotly](https://img.shields.io/badge/Plotly-Visualization-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)](https://plotly.com)
 
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 [![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)]()
 [![Made with ❤](https://img.shields.io/badge/Made%20with-❤-red?style=for-the-badge)]()
 
@@ -189,6 +188,16 @@ Goal: Balance Sheet
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
+
+<div align="center">
+
+### 📄 View Full Generated Report
+
+[![View PDF Report](https://img.shields.io/badge/📄%20View%20Full%20Report-CA%20Report%20ABC%20Pvt%20Ltd%202024--25-red?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://github.com/chandrashekharb369/CA/blob/main/CA_Report_ABC_Private_Limited_2024-25%20(1).pdf)
+
+> 🏢 **ABC Private Limited** · Financial Year **2024–25** · *AI-Generated CA Report*
+
+</div>
 
 ---
 
@@ -411,8 +420,7 @@ This project demonstrates the power of combining:
 
 <br/><br/>
 
-🎓 **M.Sc Data Science**, 
-**Tumkur University**
+🎓 **M.Sc Data Science, Tumkur University**
 
 💡 *AI · Machine Learning · Financial Analytics · CA Automation*
 
