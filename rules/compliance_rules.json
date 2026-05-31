@@ -1,0 +1,51 @@
+[
+  {
+    "rule_name": "cash_violation_40a3",
+    "condition": "amount > 10000 and payment_mode == 'Cash'",
+    "severity": "critical",
+    "section": "40A(3)",
+    "message": "Cash expense exceeds Rs.10,000 per day — potential disallowance under Section 40A(3) ITA 1961"
+  },
+  {
+    "rule_name": "cash_receipt_269st",
+    "condition": "amount >= 200000 and payment_mode == 'Cash'",
+    "severity": "critical",
+    "section": "269ST",
+    "message": "Cash transaction of Rs.2 Lakh or more — penalty risk under Section 269ST ITA 1961"
+  },
+  {
+    "rule_name": "large_single_transaction",
+    "condition": "amount > 5000000",
+    "severity": "warning",
+    "section": "Finance Act",
+    "message": "Transaction exceeds Rs.50 Lakh — ensure proper documentation and board approval"
+  },
+  {
+    "rule_name": "tds_professional_fees",
+    "condition": "amount >= 30000 and sub_category in ['Professional Fees', 'Legal & Professional', 'Audit Fees']",
+    "severity": "warning",
+    "section": "194J",
+    "message": "Professional fee payment subject to TDS at 10% under Section 194J"
+  },
+  {
+    "rule_name": "tds_contractor",
+    "condition": "amount >= 100000 and sub_category in ['Contract Labour', 'Subcontracting']",
+    "severity": "warning",
+    "section": "194C",
+    "message": "Contractor payment above threshold — TDS at 2% applicable under Section 194C"
+  },
+  {
+    "rule_name": "gst_itc_blocked",
+    "condition": "sub_category in ['Staff Welfare Expenses', 'Food & Beverages', 'Vehicle Repair', 'Health Insurance']",
+    "severity": "critical",
+    "section": "17(5) CGST",
+    "message": "Expense category has blocked Input Tax Credit under Section 17(5) of CGST Act 2017"
+  },
+  {
+    "rule_name": "advance_tax_threshold",
+    "condition": "amount > 1000000 and category == 'Income'",
+    "severity": "warning",
+    "section": "208",
+    "message": "High income transaction — verify advance tax installments are on schedule per Section 208"
+  }
+]
